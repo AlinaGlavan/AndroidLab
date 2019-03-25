@@ -28,10 +28,14 @@ $ git status - vizualizare stare fisiere
 $ git tag - vizualizarea etichetelor corespunzatoare diferitelor versiuni
 
 Mai mulți utilizatori pot colabora în cadrul unui proiect Git aflat pe un server la distanță. Operațiile pe care le pot realiza sunt descărcarea de cod sursă, respectiv încărcarea (în situația în care au drepturi suficiente).
+
 Descărcarea de cod sursă de pe un depozit la distanță
+
 1.copie a datelor aflate la locația indicată de URL(ramificațiilor, ramificația master), cu monitorizare pentru modificări, astfel încât acestea să fie integrate automat (eng. merged) în codul sursă din directorul de lucru:
 $ git clone https://github.com/USER/RepoName.git
+
 2. informațiile din depozitul de pe serverul la distanță care nu se regăsesc pe discul local, creându-se referințe către ramificația de la locația respectivă, care pot fi consultate pentru ca ulterior să fie integrate:
 $ git fetch https://github.com/USER/RepoName.git
+
 3. modificările dintr-o ramificație monitorizată din depozitul de pe serverul la distanță, încercând să le integreze în mod automat în codul sursă din directorul de lucru:
 $ git pull 
