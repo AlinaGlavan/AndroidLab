@@ -38,4 +38,10 @@ $ git clone https://github.com/USER/RepoName.git
 $ git fetch https://github.com/USER/RepoName.git
 
 3. modificările dintr-o ramificație monitorizată din depozitul de pe serverul la distanță, încercând să le integreze în mod automat în codul sursă din directorul de lucru:
-$ git pull 
+$ git pull origin master
+
+
+Info utile:
+https://help.github.com/en/articles/adding-a-file-to-a-repository-using-the-command-line
+https://medium.com/code-yoga/how-to-link-android-studio-with-github-312037a13b99
+https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
